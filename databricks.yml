@@ -15,8 +15,8 @@ targets:
     workspace:
       host: https://dbc-a71fb473-f648.cloud.databricks.com
 
-  ## Optionally, there could be 'staging' or 'prod' targets here.
-  #
-  # prod:
-  #   workspace:
-  #     host: https://dbc-a71fb473-f648.cloud.databricks.com
+  prod:
+    mode: production
+    workspace:
+      host: https://dbc-a71fb473-f648.cloud.databricks.com
+      root_path: /Workspace/${bundle.name}/${bundle.target}
