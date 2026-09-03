@@ -1,0 +1,8 @@
+resources:
+  jobs:
+    reconcile_catalogs_job:
+      name: reconcile_catalogs_job
+      tasks:
+        - task_key: reconcile_catalogs_task
+          notebook_task:
+            notebook_path: ../src/reconcile_catalogs.py

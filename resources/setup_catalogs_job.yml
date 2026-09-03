@@ -1,8 +1,0 @@
-resources:
-  jobs:
-    setup_catalogs_job:
-      name: setup_catalogs_job
-      tasks:
-        - task_key: setup_catalogs_task
-          notebook_task:
-            notebook_path: ../src/setup_catalogs.py
