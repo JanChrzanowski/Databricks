@@ -1,0 +1,9 @@
+resources:
+  catalogs:
+    dev:
+      name: dev
+      comment: Development environment catalog
+
+    prod:
+      name: prod
+      comment: Production environment catalog

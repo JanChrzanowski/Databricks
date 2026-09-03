@@ -4,6 +4,8 @@
 
 bundle:
   name: Databricks
+  # Required to manage Unity Catalog resources (e.g. catalogs) directly from the bundle.
+  engine: direct
 
 include:
   - resources/*.yml
