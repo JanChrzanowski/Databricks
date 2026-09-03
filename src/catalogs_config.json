@@ -1,0 +1,14 @@
+{
+  "catalogs": [
+    {
+      "name": "dev",
+      "comment": "Development environment catalog",
+      "schemas": []
+    },
+    {
+      "name": "prod",
+      "comment": "Production environment catalog",
+      "schemas": []
+    }
+  ]
+}
